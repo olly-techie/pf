@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alex Mercer — Systems Engineer & Founder. Building intelligent infrastructure for the next decade." />
+  <meta name="theme-color" content="#0d0d0d" />
+
+  <title>Alex Mercer — Systems Engineer · Founder</title>
+
+  <!-- Preconnect for font loading performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Google Fonts: Syne (display) + DM Sans (body) + JetBrains Mono -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+
+  <!-- Progressive enhancement: hide animated elements until JS runs -->
+  <noscript>
+    <style>
+      .js-hidden { opacity: 1 !important; transform: none !important; }
+    </style>
+  </noscript>
+</head>
+
+<body>
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <nav id="nav" aria-label="Primary navigation">
+    <a href="#hero" class="nav-logo" aria-label="Back to top">AM</a>
+    <ul class="nav-links" role="list">
+      <li><a href="#evolution">Background</a></li>
+      <li><a href="#lab">Lab</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#vision">Vision</a></li>
+      <li><a href="#cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main id="page">
+
+    <!-- ── 1. HERO ─────────────────────────────────────────── -->
+    <section id="hero" aria-label="Introduction">
+      <div class="container">
+        <div class="hero-content">
+
+          <h1 class="hero-name js-hidden">
+            Alex<br />Mercer<span class="accent">.</span>
+          </h1>
+
+          <div class="hero-subtitle js-hidden">
+            <span>Systems Engineer</span>
+            <span class="sep">·</span>
+            <span>Founder</span>
+          </div>
+
+          <p class="hero-description js-hidden">
+            I build the infrastructure that makes intelligent products possible.
+            From distributed systems under pressure to developer platforms that
+            scale — precision engineering, no shortcuts.
+          </p>
+
+          <div class="hero-cta-group js-hidden">
+            <a href="#impact" class="btn btn-primary">
+              See My Work <span class="btn-arrow">→</span>
+            </a>
+            <a href="#cta" class="btn btn-outline">
+              Let's Talk
+            </a>
+          </div>
+
+        </div><!-- /.hero-content -->
+
+        <div class="hero-scroll-hint js-hidden" aria-hidden="true">
+          <span class="scroll-line"></span>
+          <span class="label">Scroll</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 2. EVOLUTION ────────────────────────────────────── -->
+    <section id="evolution" aria-label="Career evolution">
+      <div class="container">
+
+        <div class="evolution-header js-hidden">
+          <div class="section-eyebrow">
+            <span class="label">Background</span>
+          </div>
+          <h2>Built through<br /><em style="font-style:normal;color:var(--color-text-muted)">iteration.</em></h2>
+        </div>
+
+        <div class="timeline" role="list">
+
+          <div class="timeline-item js-hidden" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">2016</div>
+            <h3 class="timeline-title">First Systems Role</h3>
+            <p class="timeline-desc">
+              Joined a fintech startup as infrastructure engineer #2.
+              Rebuilt CI/CD pipelines from scratch, reducing deploy time
+              from 45 minutes to under 4.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag">Linux</span>
+              <span class="tag">Terraform</span>
+              <span class="tag">Jenkins</span>
+            </div>
+          </div>
+
+          <div class="timeline-item js-hidden" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">2018</div>
+            <h3 class="timeline-title">Senior Engineer — Scale</h3>
+            <p class="timeline-desc">
+              Led migration of monolithic architecture to microservices at
+              Series B startup. Architected event-driven systems handling
+              2M+ events/day with sub-10ms p99 latency.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag">Kubernetes</span>
+              <span class="tag">Kafka</span>
+              <span class="tag">Go</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+
+          <div class="timeline-item js-hidden" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">2020</div>
+            <h3 class="timeline-title">Staff Engineer — Platform</h3>
+            <p class="timeline-desc">
+              Built internal developer platform serving 80+ engineers.
+              Abstracted infrastructure complexity behind composable
+              primitives. Cut onboarding time from 3 weeks to 2 days.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag">Platform Engineering</span>
+              <span class="tag">Internal DevEx</span>
+              <span class="tag">Rust</span>
+            </div>
+          </div>
+
+          <div class="timeline-item js-hidden" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">2022</div>
+            <h3 class="timeline-title">Co-Founder — Stealth</h3>
+            <p class="timeline-desc">
+              Co-founded an infrastructure-as-intelligence company.
+              Building the primitive layer that AI-native applications
+              need: adaptive compute, intelligent routing, zero-waste caching.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag accent">Stealth</span>
+              <span class="tag">AI Infrastructure</span>
+              <span class="tag">Founder</span>
+            </div>
+          </div>
+
+          <div class="timeline-item js-hidden" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-year">Now</div>
+            <h3 class="timeline-title">Building What's Next</h3>
+            <p class="timeline-desc">
+              Selectively available for fractional engineering leadership
+              and strategic infrastructure partnerships. If the problem
+              is hard enough, I want to hear about it.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag accent">Open to Engagement</span>
+            </div>
+          </div>
+
+        </div><!-- /.timeline -->
+      </div>
+    </section>
+
+    <!-- ── 3. ENGINEERING LAB ──────────────────────────────── -->
+    <section id="lab" aria-label="Engineering Lab">
+      <div class="container">
+
+        <div class="lab-header js-hidden">
+          <div class="section-eyebrow">
+            <span class="label">Engineering Lab</span>
+          </div>
+          <h2>How systems<br /><em style="font-style:normal;color:var(--color-text-muted)">actually work.</em></h2>
+          <p class="muted" style="margin-top:1rem;font-size:var(--type-lead)">
+            Interactive explorations of foundational runtime concepts.
+          </p>
+        </div>
+
+        <div class="lab-modules">
+
+          <!-- Module 1: Event Loop Visualizer -->
+          <div class="lab-module js-hidden">
+            <div class="lab-module-title">// Event Loop Visualizer</div>
+
+            <div class="event-loop-wrap">
+              <div class="loop-column">
+                <div class="loop-col-label">Call Stack</div>
+                <div class="loop-stack" id="el-call-stack"></div>
+              </div>
+              <div class="loop-column">
+                <div class="loop-col-label">Microtask Queue</div>
+                <div class="loop-stack" id="el-micro-queue"></div>
+              </div>
+              <div class="loop-column">
+                <div class="loop-col-label">Macrotask Queue</div>
+                <div class="loop-stack" id="el-macro-queue"></div>
+              </div>
+            </div>
+
+            <div class="loop-status" id="el-status">
+              Press Run to simulate the JavaScript event loop.
+            </div>
+
+            <div class="loop-controls">
+              <button class="loop-btn" id="el-play">▶ Run</button>
+              <button class="loop-btn" id="el-reset">↺ Reset</button>
+            </div>
+          </div><!-- /Module 1 -->
+
+          <!-- Module 2: Hydration vs CSR -->
+          <div class="lab-module js-hidden">
+            <div class="lab-module-title">// SSR Hydration vs Client-Side Rendering</div>
+
+            <div class="hydration-compare">
+              <div class="hydration-panel" id="hydration-ssr">
+                <div class="hydration-panel-title">SSR + Hydration</div>
+                <div class="hydration-timeline">
+                  <div class="hydration-progress" id="ssr-progress"></div>
+                </div>
+                <div class="hydration-phases">
+                  <div class="hydration-phase">
+                    <div class="phase-dot" data-ssr="0"></div>
+                    HTML delivered
+                  </div>
+                  <div class="hydration-phase">
+                    <div class="phase-dot" data-ssr="1"></div>
+                    CSS applied
+                  </div>
+                  <div class="hydration-phase">
+                    <div class="phase-dot" data-ssr="2"></div>
+                    JS hydrates
+                  </div>
+                  <div class="hydration-phase">
+                    <div class="phase-dot" data-ssr="3"></div>
+                    Interactive
+                  </div>
+                </div>
+                <div class="hydration-metric">
+                  TTI: <span id="ssr-tti">—</span>
+                </div>
+              </div>
+
+              <div class="hydration-panel" id="hydration-csr">
+                <div class="hydration-panel-title">Client-Side Rendering</div>
+                <div class="hydration-timeline">
+                  <div class="hydration-progress" id="csr-progress"></div>
+                </div>
+                <div class="hydration-phases">
+                  <div class="hydration-phase">
+                    <div class="phase-dot" data-csr="0"></div>
+                    Blank HTML
+                  </div>
+                  <div class="hydration-phase">
+                    <div class="phase-dot" data-csr="1"></div>
+                    JS bundle parse
+                  </div>
+                  <div class="hydration-phase">
+                    <div class="phase-dot" data-csr="2"></div>
+                    Data fetch
+                  </div>
+                  <div class="hydration-phase">
+                    <div class="phase-dot" data-csr="3"></div>
+                    Rendered + Interactive
+                  </div>
+                </div>
+                <div class="hydration-metric">
+                  TTI: <span id="csr-tti">—</span>
+                </div>
+              </div>
+            </div><!-- /.hydration-compare -->
+
+            <button class="lab-run-btn" id="hydration-run">▶ Simulate</button>
+          </div><!-- /Module 2 -->
+
+          <!-- Module 3: Render Optimization -->
+          <div class="lab-module js-hidden">
+            <div class="lab-module-title">// Render Pipeline Optimization</div>
+
+            <div class="render-compare">
+              <div class="render-panel">
+                <div class="render-panel-title">Naïve (per-particle draw call)</div>
+                <div class="render-canvas-wrap">
+                  <canvas id="render-unopt" aria-label="Unoptimized render"></canvas>
+                </div>
+                <div class="render-stats">
+                  <span>FPS: <span class="val" id="render-unopt-fps">—</span></span>
+                  <span>Draw calls: <span class="val" id="render-unopt-repa">—</span></span>
+                </div>
+              </div>
+              <div class="render-panel">
+                <div class="render-panel-title">Batched (single path fill)</div>
+                <div class="render-canvas-wrap">
+                  <canvas id="render-opt" aria-label="Optimized render"></canvas>
+                </div>
+                <div class="render-stats">
+                  <span>FPS: <span class="val" id="render-opt-fps">—</span></span>
+                  <span>Draw calls: <span class="val" id="render-opt-repa">—</span></span>
+                </div>
+              </div>
+            </div>
+
+            <button class="lab-run-btn" id="render-run">▶ Run Comparison</button>
+          </div><!-- /Module 3 -->
+
+        </div><!-- /.lab-modules -->
+      </div>
+    </section>
+
+    <!-- ── 4. IMPACT ───────────────────────────────────────── -->
+    <section id="impact" aria-label="Impact and case studies">
+      <div class="container">
+
+        <div class="impact-header js-hidden">
+          <div class="section-eyebrow">
+            <span class="label">Impact</span>
+          </div>
+          <h2>Results that<br /><em style="font-style:normal;color:var(--color-text-muted)">actually matter.</em></h2>
+        </div>
+
+        <div class="case-studies">
+
+          <!-- Case Study 1 -->
+          <article class="case-study js-hidden" aria-label="Case study: NovaPay">
+            <div class="case-study-meta">
+              <div class="case-study-number">01</div>
+              <div class="case-study-company">NovaPay</div>
+              <div class="case-study-domain">Fintech · Series B</div>
+            </div>
+            <div class="case-study-body">
+              <div class="case-block">
+                <div class="case-block-label">Problem</div>
+                <p class="case-block-text">
+                  Payment processing latency spiking to 8–12 seconds during peak hours
+                  due to synchronous third-party integrations and no queue isolation.
+                  Revenue at risk: $2.4M/month.
+                </p>
+              </div>
+              <div class="case-block">
+                <div class="case-block-label">Solution</div>
+                <p class="case-block-text">
+                  Redesigned integration layer with async event-driven architecture.
+                  Introduced priority queue isolation between payment types.
+                  Implemented circuit breakers and adaptive retry with exponential backoff.
+                </p>
+              </div>
+              <div class="case-block">
+                <div class="case-block-label">Tech Stack</div>
+                <div class="tech-stack">
+                  <span class="tag">Go</span>
+                  <span class="tag">Kafka</span>
+                  <span class="tag">Redis</span>
+                  <span class="tag">PostgreSQL</span>
+                  <span class="tag">Kubernetes</span>
+                </div>
+              </div>
+              <div class="case-block">
+                <div class="case-block-label">Result</div>
+                <p class="case-block-text result">
+                  p99 latency: 12s → 180ms. Zero peak-hour failures for 6 consecutive months.
+                  Unlocked Series B close by demonstrating infrastructure reliability.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case Study 2 -->
+          <article class="case-study js-hidden" aria-label="Case study: Orion Cloud">
+            <div class="case-study-meta">
+              <div class="case-study-number">02</div>
+              <div class="case-study-company">Orion Cloud</div>
+              <div class="case-study-domain">Infrastructure · Enterprise</div>
+            </div>
+            <div class="case-study-body">
+              <div class="case-block">
+                <div class="case-block-label">Problem</div>
+                <p class="case-block-text">
+                  80 engineers spending ~35% of their time on infrastructure configuration
+                  and debugging environment inconsistencies. Slow onboarding (3 weeks per hire)
+                  blocking team growth.
+                </p>
+              </div>
+              <div class="case-block">
+                <div class="case-block-label">Solution</div>
+                <p class="case-block-text">
+                  Built an internal developer platform exposing infrastructure through a
+                  composable primitive API. Self-service environment provisioning, integrated
+                  observability, and runbook automation. Engineers write intent; platform handles execution.
+                </p>
+              </div>
+              <div class="case-block">
+                <div class="case-block-label">Tech Stack</div>
+                <div class="tech-stack">
+                  <span class="tag">Rust</span>
+                  <span class="tag">Terraform CDK</span>
+                  <span class="tag">Backstage</span>
+                  <span class="tag">Prometheus</span>
+                  <span class="tag">Temporal</span>
+                </div>
+              </div>
+              <div class="case-block">
+                <div class="case-block-label">Result</div>
+                <p class="case-block-text result">
+                  Engineer onboarding: 3 weeks → 2 days. 34% reduction in infra-related
+                  incidents. Platform now serves 140+ engineers with no dedicated ops headcount.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case Study 3 -->
+          <article class="case-study js-hidden" aria-label="Case study: Meridian AI">
+            <div class="case-study-meta">
+              <div class="case-study-number">03</div>
+              <div class="case-study-company">Meridian AI</div>
+              <div class="case-study-domain">AI Infra · Seed → Series A</div>
+            </div>
+            <div class="case-study-body">
+              <div class="case-block">
+                <div class="case-block-label">Problem</div>
+                <p class="case-block-text">
+                  ML inference costs scaling linearly with users — no caching, no
+                  request deduplication, no adaptive batching. $180K/month GPU spend
+                  with 40% utilisation.
+                </p>
+              </div>
+              <div class="case-block">
+                <div class="case-block-label">Solution</div>
+                <p class="case-block-text">
+                  Designed a semantic caching layer in front of inference endpoints.
+                  Embedding-similarity lookup to reuse recent results within configurable
+                  drift threshold. Dynamic request batching with deadline-aware scheduling.
+                </p>
+              </div>
+              <div class="case-block">
+                <div class="case-block-label">Tech Stack</div>
+                <div class="tech-stack">
+                  <span class="tag">Python</span>
+                  <span class="tag">Qdrant</span>
+                  <span class="tag">Triton</span>
+                  <span class="tag">NVIDIA A100</span>
+                  <span class="tag">Ray</span>
+                </div>
+              </div>
+              <div class="case-block">
+                <div class="case-block-label">Result</div>
+                <p class="case-block-text result">
+                  GPU utilisation: 40% → 87%. Monthly inference cost reduced by 61%.
+                  Cache hit rate: 52% on production traffic. Directly extended runway by 8 months.
+                </p>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.case-studies -->
+      </div>
+    </section>
+
+    <!-- ── 5. VISION ───────────────────────────────────────── -->
+    <section id="vision" aria-label="Vision and philosophy">
+      <canvas id="vision-canvas" aria-hidden="true"></canvas>
+      <div class="container vision-content">
+
+        <div class="vision-header js-hidden">
+          <div class="section-eyebrow">
+            <span class="label">Vision</span>
+          </div>
+          <h2>Infrastructure is<br /><em style="font-style:normal;color:var(--color-accent)">strategy.</em></h2>
+        </div>
+
+        <div class="vision-statements">
+
+          <div class="vision-statement js-hidden">
+            <div class="vision-statement-num">01</div>
+            <h3>Systems outlive products.</h3>
+            <p>
+              The companies that win the next decade aren't building features —
+              they're building the substrate that makes a category of features
+              possible. Infrastructure is compounding leverage.
+            </p>
+          </div>
+
+          <div class="vision-statement js-hidden">
+            <div class="vision-statement-num">02</div>
+            <h3>AI needs a new primitive layer.</h3>
+            <p>
+              Current infrastructure was built for deterministic workloads.
+              AI inference is stochastic, latency-sensitive, and cost-volatile.
+              That gap is where we're building.
+            </p>
+          </div>
+
+          <div class="vision-statement js-hidden">
+            <div class="vision-statement-num">03</div>
+            <h3>Complexity is a moat.</h3>
+            <p>
+              The hardest engineering problems are hard because they require
+              years of nuanced context. I build systems where that complexity
+              is invisible to the teams running on top of them.
+            </p>
+          </div>
+
+          <div class="vision-statement js-hidden">
+            <div class="vision-statement-num">04</div>
+            <h3>Precision over velocity.</h3>
+            <p>
+              I don't build fast — I build right the first time, then iterate
+              fast. The cost of rearchitecting core infrastructure is always
+              measured in months, not sprints.
+            </p>
+          </div>
+
+        </div><!-- /.vision-statements -->
+      </div>
+    </section>
+
+    <!-- ── 6. CALL TO ACTION ───────────────────────────────── -->
+    <section id="cta" aria-label="Contact and engagement options">
+      <div class="container">
+
+        <h2 class="cta-headline js-hidden">
+          Let's Build Something<br /><span class="accent">Intelligent.</span>
+        </h2>
+
+        <p class="cta-sub js-hidden">
+          Two ways to work together. Both require the problem to be worth solving.
+        </p>
+
+        <div class="cta-options js-hidden">
+
+          <div class="cta-card" role="button" tabindex="0"
+               data-href="mailto:alex@example.com?subject=Engineering Engagement"
+               onclick="window.location.href=this.dataset.href"
+               aria-label="Hire for Engineering">
+            <div class="cta-card-label">Engineering</div>
+            <div class="cta-card-title">Hire for<br />Engineering</div>
+            <p class="cta-card-desc">
+              Fractional CTO, infrastructure architecture,
+              or hands-on systems work for exceptional teams.
+            </p>
+            <div class="cta-card-arrow">→</div>
+          </div>
+
+          <div class="cta-card" role="button" tabindex="0"
+               data-href="mailto:alex@example.com?subject=Vision Partnership"
+               onclick="window.location.href=this.dataset.href"
+               aria-label="Partner on Vision">
+            <div class="cta-card-label">Vision</div>
+            <div class="cta-card-title">Partner on<br />Vision</div>
+            <p class="cta-card-desc">
+              Strategic alignment, co-founding discussions,
+              or advisory for infrastructure-native companies.
+            </p>
+            <div class="cta-card-arrow">→</div>
+          </div>
+
+        </div><!-- /.cta-options -->
+      </div>
+    </section>
+
+  </main><!-- /#page -->
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer>
+    <p>© 2025 Alex Mercer. Built with precision.</p>
+    <nav class="footer-links" aria-label="Social links">
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+    </nav>
+  </footer>
+
+  <!-- ============================================================
+       DEV MODE OVERLAY
+       ============================================================ -->
+  <div id="dev-overlay" aria-hidden="true" role="region" aria-label="Developer metrics">
+    <div class="dev-row">
+      <span class="dev-label">FPS</span>
+      <span class="dev-val" id="dev-fps">—</span>
+    </div>
+    <div class="dev-row">
+      <span class="dev-label">Scroll vel</span>
+      <span class="dev-val" id="dev-velocity">—</span>
+    </div>
+    <div class="dev-row">
+      <span class="dev-label">Page prog</span>
+      <span class="dev-val" id="dev-progress">—</span>
+    </div>
+    <div class="dev-row">
+      <span class="dev-label">Section</span>
+      <span class="dev-val" id="dev-section">—</span>
+    </div>
+    <div class="dev-row">
+      <span class="dev-label">Sec progress</span>
+      <span class="dev-val" id="dev-active">—</span>
+    </div>
+  </div>
+
+  <!-- Dev Mode Toggle (hidden corner button) -->
+  <button
+    id="dev-toggle"
+    aria-label="Toggle developer mode (Ctrl+Shift+D)"
+    title="Dev Mode (Ctrl+Shift+D)"
+  >&#x7B;&#x7D;</button>
+
+  <!-- ============================================================
+       SCRIPTS — ES Modules
+       ============================================================ -->
+  <script type="module" src="js/main.js"></script>
+
+  <!-- No-JS fallback: ensure content is always visible -->
+  <noscript>
+    <style>
+      .js-hidden {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+      }
+    </style>
+  </noscript>
+</body>
+</html>
