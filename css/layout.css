@@ -1,0 +1,17 @@
+/* layout.css
+   Layout specific rules: spacing, grids, responsive helpers.
+*/
+
+.site{display:block}
+main{display:block}
+
+/* Simple container center on larger screens */
+@media (min-width:1200px){
+  .site{max-width:1100px}
+}
+
+/* Make sections clearly separated on small screens */
+@media (max-width:520px){
+  section{padding:48px 12px}
+  .lab-grid{grid-template-columns:1fr}
+}

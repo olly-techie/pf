@@ -1,0 +1,18 @@
+/* components.css
+   Visual details for buttons, modules, timeline items.
+   Animations (transitions) restricted to transform & opacity only.
+*/
+
+.module, .case{
+  transition: transform 420ms var(--ease), opacity 420ms var(--ease);
+}
+
+/* small hover affordances that only transform */
+.btn{
+  transition: transform 220ms var(--ease), opacity 220ms var(--ease);
+}
+
+/* timeline dot subtle transform on reveal */
+.milestone .dot{
+  transition: transform 380ms var(--ease), opacity 380ms var(--ease);
+}
